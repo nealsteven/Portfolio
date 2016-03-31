@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Steven Neal's Portfolio">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript,Bootstrap,Sass">
+  <meta name="author" content="Steven Neal">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <meta name="p:domain_verify" content="bd85f5e39193fe8aeed68b8fc7bd33f2"/>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="normailize.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesBoot.css">
+  <link rel="icon" href="http://example.com/favicon.png">
+<title>Steven Neal's Portfolio website</title>
+</head>
+  <body>
+    <header>
+     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="#home">My logo</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class="">
+                         <a class="page-scroll" href="#aboutMe">About</a>
+                      </li>
+                      <li class="">
+                          <a class="page-scroll" href="#services">Services</a>
+                      </li>
+                      <li class=""><a href="myWork.html" class="#portfolio">Portfolio</a>
+                      </li>
+                      <li class="">
+                          <a class="page-scroll" href="#contactMe">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+      
+      
+      
+       <li class="dropdown">
+    <a href="#" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+      </li>
+      
+      
+      
+      
+    </header>
+    <a name="home"></a>
+    <div class="jumbotron">
+        <div class="container">
+          <h1>Hello, world! Welcome to my site.</h1>
+          <p>My name is Steven Neal. Add a little basic info about me!!!!!! </p>
+          <img src="Images/book.jpg" alt="Avaible Now" style="width:200px;height: 200px;border:0;">
+        </div>
+    </div>
+
+
+    <div class="container">
+      <h3>One of my favorite quotes:</h3>
+       <blockquote class="steveJobs">"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it."
+         <footer>Steve Jobs</footer>
+        </blockquote>
+    </div>
+
+    <section id="about">
+      <a name="aboutMe"></a>
+        <div class="jumbotron">
+          <div class="container">
+            <h1>A little about me.</h1>
+              <p><img id="myImg" src="#" class="img-rounded .pull- .img-responsive" alt="Steven Neal Picture" width="300" height="300"> </p>
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                    <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                </div>
+          </div>
+        </div>
+    </section>
+    
+   <div class="container">
+    <p>So, you want to learn a little about me? You came to the right place. I'm shy, quiet, and ___________. Hey, wait that doesn't like what you wanted to hear. Even though I'm those things I also like to have fun and work hard. I'm expanding my skill set each and every day. I'm excited to take on greater challenges whatever they may be. As I've gotten older I've gone through multiple jobs. My favorite was roofing however it was taking to much of a toll on my body. Roofing has taught me the most about being a hard worker and never to give up. I also enjoy sitting down and working with computers. With that said, In the summer (2016) I will begin working on getting my degree in computing from Florida State College at Jacksonville. In hopes that I can get a job at an awesome company doing the work that I enjoy. When I pass that challenge it will be one of my greatest accomplishments. I'm trying to perfect my skills of creating creative, appealing, usable, websites using the latest W3C web standards guidelines and everything I learned about web development. Currently, I'm teaching myself, HTML, CSS, JavaScript and photo editing for web development. When I'm not in front of my computer studying design and development. You'll find me in front of my computer practicing my digital drawing or on my sofa drawing with a pen and paper, writing(I have written a couple of small articles). I'm trying to get some of my writing published, too. I'm also a huge gamer. Presently I live in Jacksonville, FL. I love to travel, read, study, and volunteering.</p>
+    </div>
+
+    <div class="jumbotron">
+      <a name="portfolio"></a>
+        <div class="container">
+          <h1>Some of my work. <a class="btn btn-primary btn-lg" href="myWork.html" role="button"> <span class="glyphicon glyphicon-ok-sign"></span> See more</a></h1>
+         </div>
+    </div>
+   
+    
+  <section id="services">
+    <a name="Services"></a>   
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">At Your Service</h2>
+                <hr class="primary">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Social Media Setup Package</h3>
+                          <p>.Most clients are totally clueless about social media. Plus there are so many different ones out there and all the usernames and passwords to remember. That’s where you step in.Start by setting up a new Gmail account for them. Connect all the accounts to it. Next, buy a LastPass account so they can easily store all their passwords and usernames. Now just go through and add all their social accounts. If they don’t exist yet go ahead and create them.You can let them choose from a list of accounts or go with the major ones like: Twitter, Google Plus, Facebook, LinkedIn, Pinterest, Tumblr,and so on. That is pretty much it. Create all the accounts and package them all into one LassPass account with one email address. If you want you can even go to their office, install the LassPass plugin in their browser, and bookmark the social sites for them. Also set up the gmail account to forward to whatever email they currently use. Using Gmail is better because you can set it all up on your own without dealing with their email then just forward it on when finished.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Analytics Interpretation and Reporting</h3>
+                          <p>You’ve designed the site with web analytics code in place and the site usage is being tracked. But it takes a lot of the client’s time to review the analytics and, most importantly, interpret what it means. It can be beneficial for your clients to have someone who understands the data create reports, interpret them, and make suggestions for site improvements based on the data.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Blog Customization</h3>
+                          <p>Need your blog to look new like your website? I can help you with that. Blogs are another area where a client may need help carrying over the same look that you created for their website. Beyond the customization and setup, there may be an opportunity to provide blog management services for your clients, where you publish posts, manage comments, add the blog to directories and promote linking.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Local Search Package</h3>
+                          <p>Set their company up in Google Places, and the other local search sites. Buy inclusion into some of the major business directories like Yahoo and whatever local directories you can find. Write one positive review for their company in each of the major review sites like Yelp. Make sure their address, phone number and website information is correct on all the sites. </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    
+        <div class="container"><hr class="primary"></div>
+    
+      <div class="container">
+         <span class="hidden-xs visible-sm,visible-md,visible-lg"> 
+          <img src="/Images/jacksonville.jpg" alt="Image on downtown Jacksonville" class="center-block"  style="width:700px;height500px;">
+
+                  <div class="row">
+                      <div class="col-lg-8 col-lg-offset-2 text-center">
+                          <h2 class="section-heading">Let's Get In Touch!</h2>
+                          <hr class="primary">
+                          <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible! Or if you wish to say hello or give me feedback you can reach me at one of the following:</p>
+                      </div>
+                  </div>
+        </span>
+      </div>
+    
+    <section id="contact">
+      <a name="contactMe"></a>
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <a href="http://linkedin.com/in/nealsteven">
+            <img src="/Images/LinkedIn.png" alt="LinkedIn" style="width:50px;height:50px;border:0;"></a>
+          <a href="http://twitter.com/scotia4444">
+            <img src="/Images/Twitter.png" alt="Twitter" style="width:50px;height:50px;border:0;"></a>
+          <a href="https://github.com/scotia4444">
+            <img src="/Images/github.png" alt="Github" style="width:50px;height:50px;border:0;"></a>
+          <a href="tel:904-885-1335">
+            <img src="/Images/Call.png" alt="Call Me" style="width:50px;height:50px;border:0;">
+          </a>
+          <a href="mailto:steven@nealsteven.com.com">
+            <img src="/Images/Email.png" alt="Email Me" style="width:50px;height:50px;border:0;">
+            </a>
+            <br>
+          <p>Website created by Steven Neal</p>
+          <p>Copyright © www.nealsteven.com 2016</p>
+        </div>
+    </section>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="jquery-2.2.1.min.js"></script>
+    <script src="moderizr-custom.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>
