@@ -3,16 +3,15 @@
 - Choose font
 - Design logo
 - Do the CSS
-- Add a Modal to images and some links (needs a close button) (add to jax image)
 - Get buttons on service to be all button
 - Add a favicon to head element
 - Fix all paragraphs
-- Add Thanks to these GOOD PEOPLE who've helped me a long the way.
-- Fix contact me and the index pages
 - Change indexFontColor, mailChimp and goodPeople to more readable color
 - Fix up mailchimps forums
 - Redo nav bar after all pages are done (need to get mobile working)
--- Terms and conditions
+-- Add Thanks to these GOOD PEOPLE who've helped me a long the way.
+-- Fix contact me and the index pages
+-- Terms and conditions (get the legal stuff done)
 -- Add 'Pin It' button to everythnig in portfolio
 -- Update the pdf version of resume
 -- Add to the resume
@@ -31,7 +30,7 @@
 -- Get mail chimp up and running
 -- Create a contact me page
 -/- Link Available button to contact me
--/- Home page like Jeff's
+-/- Add a Modal to images and some links (needs a close button)
 -/- Skills
 -?- Who have I done work for
 -?- Add time guage to articles
