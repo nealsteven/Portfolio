@@ -16,28 +16,29 @@
   <link rel="icon" href="http://example.com/favicon.png">
 <title>Steven Neal's Portfolio website</title>
 </head>
-  <body>
+  <body class="bg">
     <header>
      <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
           <div class="container-fluid">
               <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand page-scroll" href="#home">nealSteven</a>
+                  <a class="navbar-brand" href="/indexBoot.html">nealSteven</a>
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
                   <ul class="nav navbar-nav navbar-right">
                       <li class="">
-                         <a class="page-scroll" href="#aboutMe">About Me</a>
+                         <a class="page-scroll" href="/aboutBoot.html">About Me</a>
                       </li>
                       <li class="">
-                          <a class="page-scroll" href="#services">Prices &amp; Packages</a>
+                          <a class="page-scroll" href="/services.html">Prices &amp; Packages</a>
                       </li>
-                      <li class=""><a href="myWork.html" class="#portfolio">Portfolio</a>
+                      <li class=""><a href="/myWork.html" class="#portfolio">Portfolio</a>
                       </li>
                       <li class="">
                           <a class="page-scroll" href="/contactBoot.html">Contact</a>
@@ -48,38 +49,31 @@
       </nav>
       
 <br>
-     
+     <div class="wrapper">
+   <img src="#" class="img-responsive" alt="Responsive image">
+</div>
     </header>
     <a name="home"></a>
-    <div class="jumbotron">
         <div class="container">
-          <h1>Hello, world! Welcome to my site.</h1>
-          <p>My name is Steven Neal. What are you? A designer? A writer? A developer? What do you develope? Where are you from? Country? City?Are you a freelancer? Are you looking for work? </p>
+         
+          <p class="indexFontColor">My name is Steven Neal. What are you? A designer? A writer? A developer? What do you develope? Where are you from? Country? City?Are you a freelancer? Are you looking for work? </p>
         </div>
-    </div>
-
-
-    <div class="container">
-      <h3>One of my favorite quotes:</h3>
-       <blockquote class="steveJobs">"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it."
-         <footer>Steve Jobs</footer>
-        </blockquote>
-    </div>
-
-
-
-    <div class="jumbotron">
-      <a name="portfolio"></a>
-        <div class="container">
-          <h1>Some of my work. <a class="btn btn-primary btn-lg" href="myWork.html" role="button"> <span class="glyphicon glyphicon-ok-sign"></span> See more</a></h1>
-         </div>
-    </div>
    
 
+
     
-        <div class="container"><hr class="primary"></div>
+      <a name="portfolio"></a>
+        <div class="container">
+          <h1 class="indexFontColor">Some of my work. <a class="btn btn-primary btn-lg" href="myWork.html" role="button"> <span class="glyphicon glyphicon-ok-sign"></span> See more</a></h1>
+         </div>
     
-      <div class="container">
+   
+
+  <div class="footer">  
+        <div class="container"></div>
+    
+    <div class="indexFontColor">  
+    <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                <h2 class="section-heading">Let's Get In Touch!</h2>
@@ -105,14 +99,18 @@
             <img src="/Images/Email.png" alt="Email Me" style="width:50px;height:50px;border:0;">
             </a>
             <br>
+          <div class="container" id="goodPeople">
+      <p>Thanks to these <a href="/goodPeople.html" class="links1">AWESOME PEOPLE</a> who've helped me a long the way.</p>
+    </div>
           <p>Website created by Steven Neal</p>
           <p>Copyright © www.nealsteven.com 2016 | All rights reserved</p>
         </div>
     </section>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </div>
+    </div>
+    <script src="/JavaScript/bootstrap.min.js"></script>
     <script src="jquery-2.2.1.min.js"></script>
+    <script src="/JavaScript/npm.js"></script>
     <script src="moderizr-custom.js"></script>
-    <script src="modal.js"></script>
   </body>
 </html>
