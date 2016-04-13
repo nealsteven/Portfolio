@@ -208,6 +208,15 @@ a:hover {
   font-weight: 400;
 }
 
+/*************************** Mail Chimp *******************/
+
+#mc_embed_signup{ 
+  color: aliceblue; 
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif; 
+  width:100%;
+}
+
 /*************************** Accordion *******************/
 
 .accordion {
