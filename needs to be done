@@ -8,6 +8,7 @@
 - Add a favicon to head element
 - Change indexFontColor, mailChimp and goodPeople to more readable color
 - Redo nav bar after all pages are done (need to get mobile working)
+- Add an other package or service to servicesBoot
 - Finish the about me questions
 -- Add more quotes
 -- Fix all paragraphs
