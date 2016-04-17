@@ -4,9 +4,10 @@
 - Do the CSS
 - Redo nav bar after all pages are done (need to get mobile working)
 - Add an other package or service to servicesBoot
-- Finish the about me questions
-- Fix all buttons
 
+-- Fix mail chimp required
+-- Fix all buttons
+-- Finish the impossible list
 -- Design logo
 -- Choose and change font
 -- Get buttons on service to be all button
@@ -40,6 +41,7 @@
 -/- Link Available button to contact me
 -/- Skills
 
+-?- Add a geo map
 -?- Who have I done work for
 -?- Add time guage to articles
 -?- Add a Modal to images and some links (needs a close button) glyphicon glyphicon-modal-window
