@@ -8,9 +8,10 @@
   <meta name="keywords" content="HTML,CSS,XML,JavaScript,Bootstrap,Sass">
   <meta name="author" content="Steven Neal">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
   <meta name="p:domain_verify" content="bd85f5e39193fe8aeed68b8fc7bd33f2"/>
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/normailize.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="normailize.css" rel="stylesheet">
   <link rel="stylesheet" href="stylesBoot.css">
   <link rel="icon" href="/Images/favicon.png">
 <title>Steven Neal's Portfolio website</title>
@@ -20,16 +21,15 @@
      <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
           <div class="container-fluid">
               <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="/indexBoot.html"><img src="/Images/1_Primary_logo_on_transparent_229x75.png" alt="nealSteven Logo"></a>
+                  <a class="navbar-brand page-scroll" href="/indexBoot.html"><img src="/Images/1_Primary_logo_on_transparent_229x75.png" alt="nealSteven Logo"></a>
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
                   <ul class="nav navbar-nav navbar-right">
                       <li class="">
                          <a class="page-scroll" href="/aboutBoot.html">About Me</a>
@@ -40,140 +40,253 @@
                       <li class=""><a href="/myWork.html" class="#portfolio">Portfolio</a>
                       </li>
                       <li class="">
-                          <a class="page-scroll" href="/contactBoot.html">Contact</a>
+                          <a class="page-scroll" href="/contactBoot.html">Contact Me</a>
                       </li>
                   </ul>
               </div>
           </div>
       </nav>
-      
-     
+<br>  
+<br>
+<br>
     </header>
+
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-primary btn-lg"><a href="#services"><span class="glyphicon glyphicon-usd"></span> Pricing</a></button>
+  </div>
+  <div class="btn-group" href="#packages" role="group">
+    <button type="button" class="btn btn-primary btn-lg"><a href="#packages"><span class="glyphicon glyphicon-open-file"></span> Packages</a></button>
+  </div>
+  <div class="btn-group" href="#FAQ" role="group">
+    <button type="button" class="btn btn-primary btn-lg"><a href="#FAQ"><span class="glyphicon glyphicon-question-sign"></span> FAQ</a></button>
+  </div>
+</div>
     <br>
     <br>
-    <br>
+    <div class="container">There is a free initial consultation to discuss your project. We will have a look at your current website (if you have one) and talk about what you want to achieve. </div>
     
-    <div class="jumbotron">
-      <div class="container">
-        <h1>My resume</h1><br>
-        
-        <p>
-            <a href="/fileType/Steven_Neal_Resume.pdf" id="resume"> <img src="Images/pdf.png" alt="Pdf Image" style="width:50px;height:50px;border:0;"></a>Here Is a .pdf version of my resume.</p>
-          
-        <p>
-           <a href="/fileType/Steven_Neal_Resume.docx" id="resumeDocs"> <img src="/Images/docx.png" alt="docs image" style="width:50px;height:50px;border:0;"></a>Here Is a .docs version of my resume.</p>
-        
-      </div>
+    <div class="container">
+      <h3>The following payment methods accepted:</h3>
+        <img src="/Images/payments/american-express-curved-32px.png">
+        <img src="/Images/payments/discover-curved-32px.png">
+        <img src="Images/payments/google-checkout-curved-32px.png">
+        <img src="Images/payments/mastercard-curved-32px.png">
+        <img src="Images/payments/visa-curved-32px.png">
+        <img src="Images/payments/paypal-curved-32px.png">
+        <img src="/Images/payments/dollar.png" style="width:51px;height:32px;border:0;">
+        <img src="/Images/payments/square.jpg" style="width:51px;height:32px">
     </div>
     
-<div class="container">  
-      <h1>Steven T. Neal</h1>
-      <h3 class="title"><strong>Experience</strong></h3>
+    <div id="services"></div> 
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Pricing</h2>
+              <p>All projects require a down payment of 50% to start.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Starter Website from $500</h3>
+                          <p> Custom design including one revision after delivery</p>
+                        <ul>
+                          <li>Five pages (+ $50 for each additional page)</li>
+                          <li>Responsive web design, optimized for both mobile and tablets</li>
+                          <li>One email contact form (+ $50 for each additional form)</li>
+                          <li>Homepage slideshow with 6 pictures ($100 extra)
+                            Photo gallery with up to 24 pictures ($80 extra)</li>
+                          <li>Shopping cart (not included)</li>
+                          <li>Additional features upon request after consultation</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Business Website from $1,000</h3>
+                        <p>Custom design including two revision after delivery</p>
+                            <ul>
+                              <li>15 website pages (+ $50 for each additional page)</li>
+                              <li>Custom CMS</li>
+                              <li>Responsive web design, optimized for both mobile and tablets. </li>
+                              <li>One email contact form (+ $50 for each additional form).</li>
+                              <li>Homepage slideshow with 6 pictures
+                                Photo galleries</li>
+                              <li>Shopping cart (+ $250 and an additional $25 per product)</li>
+                              <li>Additional features upon request after consultation</li>
+                            </ul>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3> E-Commerce Website from $2,500</h3>
+                        <p>Custom design including two revisions after delivery</p>
+                              <ul>
+                                <li>20 website pages (+ $50 for each additional page)</li>
+                                <li>Custom CMS</li>
+                                <li>Responsive web design, optimized for both mobile and tablets.</li>
+                                <li>One email contact form (+ $50 for each additional form).</li>
+                                <li>Homepage slideshow with 6 pictures
+                                Photo galleries</li>
+                                <li>Shopping cart, payment processor and shipping integration included</li>
+                                <li>Additional features upon request after consultation</li>
+                              </ul>
+                      </div>
+                  </div>
+                                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Blog Customization from $175.00</h3>
+                          <p>Need your blog to look new like your website? I can help you with that. WordPress is the world’s most popular blogging platform, running more than 10% of the top 1,000,000 websites. Since the platform’s launch in 2003, blogs have outpaced traditional websites.
+                          Web hosting and domain name assistance
+                          Basic WordPress blog installation, setup, and configuration
+                          Upload an existing logo on the blog header
+                          Select, install and test WordPress plug-ins
+                          Select and install a pre-existing free WordPress template to be used in its original format
+                            *add $89.00 for a premium theme </p>
+                        
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+<hr class="primary">
+    <div id="packages"></div> 
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Packages</h2>
+              </div>
+            </div>
+        </div>
+      </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Social Media Setup Package from $125.00</h3>
+                          <p>In the past few years, social media has revolutionized the way the world does business. It has altered the customer service experience and increases brand awareness. HubSpot reports that social media produces nearly double the marketing leads of trade shows, telemarketing, direct mail or Pay-Per-Click (PPC). Through the Internet and social media resources, it's now feasible to grow personal relationships with your customers regardless of your company's size or location. So, if you're not actively using these networks for publicity, this could be a missed opportunity.Social Media Background and/or Banner Design</p>
+                        <ul>
+                          <li>Custom Banner Image $40.00</li>
+                          <li>Custom Background Image $65.00</li>
+                        </ul>
+                      </div>
+                  </div>
+                
+                    <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Local Search Package from $75.00</h3>
+                          
+                            <p>Set up your company up in Google Places, and other local search sites
+                            Add you company to major business directories like Yahoo and other local directories
+                            Write one positive review for your company in each of the major review sites like Yelp
+                            Make sure your company's address, phone number and website information is correct on all the sites
+                              I will create a sitemap.xml file and submit it to Google and Bing upon launch</p>
+                          
+                      </div>
+                  </div>
+                
+            
+             <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Logo creation from $150.00</h3>
+                          <p>Experts urge small business owners to “brand” their businesses with a logo and a set of consistent marketing materials.To look “bigger” and “established.To increase your chance of earning venture capital or of selling a business.To attract more clients.To brand yourself.To convey that you are reputable.To give clients a sense of stability.To be more memorable.To explain your company name.To endear your company name to your clients.To differentiate you from your competition.To stand out in your field. To comply with expectations.To show your commitment.</p>
+                      </div>
+                  </div>
+                
+                    <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                          <h3>Search engine optomization package from $300</h3>
+                          
+                            <p></p>
+                          
+                      </div>
+                  </div>
+                </div>
+  </div>
 
-      <p class="title"><strong>Personal Banker | Convergys | Jacksonville, FL</strong></p>
-  
-      <div class="dates">December 2015 – Current</div>
-
-  
-      <p>- Troubleshoot, research and analyze customer problems with installation, billing, service upgrades/downgrades and disconnects.
-      </p>
-      <p>
-      - Confirm customer understanding of the solution and provide additional customer education as needed.
-  </p>
-  <p>
-      - Multitasking through multiple computer software programs while interacting with customers (On average 130 calls a day).
-  </p>
-  <br>
-  <p class="title"><strong>Roof Loader | ABC Supply Co. Inc. | Jacksonville, FL</strong></p>
-    <div class="dates">November 2011- October 2015</div>
-  <p>
-      - Conducted on the job training, trained 10 people, to new employees. This training included roof loading, safety skills, how to secure the truck,
-      assisting the driver, warehouse work, teaching what the different product is, and customer interaction.
-  </p>
-  <p>
-      - Encouraged and inspired other team members to perform better, got more work out of the branch through friendly competition.
-  </p>
-  <p>
-      - Number 1 requested roof loader at the branch. Also loaded the most houses on a daily basis.
-  </p>
-  <p>
-      - Award of Service Excellence | outstanding commitment of providing exceptional customer service. | April 2013 (2) and March 2015
-  </p>
-  <br>
-  <p class="title"><strong>Automotive Technician | Coggin Nissan | Jacksonville, FL</strong></p>
-  <div class="dates">September 2010- October 2011</div> 
-  <p>
-    - Performed work as outlined on repair order with efficiency and accuracy, in accordance with dealership and factory standards.
-  </p>
-  <p>
-      - Communicated effectively with customers on future problems and repairs that might need to be addressed. Through face to face interactions or the repair
-      order system on the computer.
-  </p>
-  <p>
-      - In order to stay up to date with the safety of the cars and myself. It was required to keep up with factory technical service bulletins (TSB) and
-      participate in factory sponsored training classes.
-  </p>
-  <p>
-      - Ability to diagnose, troubleshoot, and resolve technical problems using the correct tools.
-  </p>
-  <p>
-      - Received a Certificate of Recognition | For one year of dedication and loyal service | September 2011
-  </p>
-  <br>
-  <p class="title">
-      <strong>Overnight Supervisor | CVS Pharmacy | Schenectady, NY</strong>
-      <strong> </strong></p>
-  <div class="dates">November 2007 - February 2011</div>
-  <p>
-      - Supervised a sales team of 8 sales associates. Also trained 3 employees through on the job training.
-  </p>
-  <p>
-      - Completed all point of sale opening and closing procedures, including counting the contents of the cash register at the end of my shift and also making
-      the bank deposits.
-  </p>
-  <p>
-      - Delegated jobs for each employee through assigning, directing and following up of all activities. The jobs included cleaning the store, cashier, help
-      unload trucks and help sign/ face the store.
-  </p>
-  <p>
-      - Promoted a positive work environment by consistently treating all employees and customers with respect and consideration.
-  </p>
-  <p>
-      - Promptly resolved all customer requests, questions and complaints.
-  </p>
-  <br>
-  <h3 class="title"><strong>Education</strong></h3>
-  <p>
-      - Automotive Mechanic | Universal Technical Institute, Norwood, MA | 3.01 GPA
-  </p>
-  <p>
-      - Computer Programming | Codecademy, Udemy, EDX, MIT, University of Colorado, etc. | Ongoing from early 2015 Using massive open online courses (MOOCs) Took
-      programming courses from the top universities. Skills acquired: HTML, CSS, JavaScript, SQL, Python, Java, and Computer science.
-  </p>
-</div>    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-            <div class="container"><hr class="primary"></div>
-    
+    <br>
+  <div id="FAQ"></div>
+    <div class="jumbotron">
       <div class="container">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">FAQ</h2>
+            <p>If you have questions that aren't answered below don't hesitate to ask.</p>
+        </div>
+      </div>
+    </div>
+
+      <br>
+    <div class="container">
+        <ul class="accordion css-accordion">
+        <li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item1" />
+          <label for="item1" class="accordion-item-hd">DO THE WEBSITE PACKAGES INCLUDE CREATING A LOGO OR OTHER BRANDING ITEMS?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">Unfortunately, no. All plans assume you already have a logo for your business. If you'd like to request a logo to be created, it will be a separate cost (price dependent on complexity of request).</div>
+        </li>
+        <li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item2" />
+          <label for="item2" class="accordion-item-hd">CAN I PURCHASE THIS WITH A HOSTING ACCOUNT?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">Yes. The web hosting will be through a different company than nealSteven. </div>
+        </li>
+        <li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item3" />
+          <label for="item3" class="accordion-item-hd">HOW LONG DOES IT TAKE FOR MY WEBSITE TO BE CREATED?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">I can't guarantee exact delivery times for website packages. Expect on average a website takes 1-2 weeks (business days) once I have all I need to start the project. If there is information needed by me that hasn't been provided, there may be delays. </div>
+        </li>
+          <li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item4" />
+          <label for="item4" class="accordion-item-hd">WHAT ABOUT IMAGES? AM I RESPONSIBLE FOR THOSE?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">Unless it's your picture or something unique to your business, No - I can provide those at no additional cost. </div>
+        </li><li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item5" />
+          <label for="item5" class="accordion-item-hd">WHAT IF I NEED MORE PAGES BEYOND WHAT IS OFFERED IN THE PACKAGES?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">I charge each extra designed page you might need beyond what is offered above.</div>
+        </li><li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item6" />
+          <label for="item6" class="accordion-item-hd">WHAT PAYMENT OPTIONS DO YOU OFFER?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">Company check and/or credit cards, and PayPal are accepted </div>
+        </li><li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item7" />
+          <label for="item7" class="accordion-item-hd">DO YOU ACCEPT EVERY CLIENT?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">If the client is not a good fit, the opportunity is not quoted. If we don’t feel that we’re a good fit I quickly tell you so.</div>
+        </li>
+          <li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item8" />
+          <label for="item8" class="accordion-item-hd">WE DON'T HAVE A LOT OF HIGH QUALITY IMAGES SO WHAT DO YOU SUGGEST?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">There are a number of websites that offer affordable stock images for use in website design projects.</div>
+        </li>
+          <li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item9" />
+          <label for="item9" class="accordion-item-hd">WILL I HAVE A SAY IN THE GRAPHIC DESIGN PROCESS?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">Absolutely. My goal is to please you. I can’t do that without your input. I’ll be sure your new site will be a consistent part of your overall brand.</div>
+        </li>
+          <li class="accordion-item">
+          <input class="accordion-item-input" type="checkbox" name="accordion" id="item10" />
+          <label for="item10" class="accordion-item-hd">DOES nealSteven PROVIDE WEB HOSTING SERVICES?<span class="accordion-item-hd-cta">&#9650;</span></label>
+          <div class="accordion-item-bd">No. And be cautious when other web design companies say they do.
+          </div>
+        </li>
+      </ul>
+    </div>
+      
+      
+      
+      <div class="container">
+        <span>
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-               <h2>Let's Get In Touch!</h2>
-                  <hr class="primary">
-                    <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible! Or if you wish to say hello or give me feedback you can reach me at one of the following:</p>
-              </div>
-           </div>
+              <h2>Let's Get In Touch!</h2>
+                <hr class="primary">
+                  <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible! Or if you wish to say hello or give me feedback you can reach me at one of the following:</p>
+            </div>
+          </div>
+        </span>
       </div>
     
     <section id="contact">
@@ -199,6 +312,7 @@
         </div>
     </section>
 
+    
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="/JavaScript/jquery-2.2.1.min.jsj"></script>
     <script src="/JavaScript/moderizr-custom.js"></script>
