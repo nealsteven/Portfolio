@@ -8,17 +8,26 @@ h1, h2, h3, h4, h5 {
   font-family: 'Abril Fatface', cursive;
 }
 
-p, ul, a, button
+p, ul, li, a, button
 {
   font-family: 'Lora', serif;
 }
 a {
-	text-decoration: none;
-	color: #fff;
-	transition: all 0.3s ease-out;
-	position: relative;
-	padding: .5em;
-	margin: -.5em;  
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-out;
+  position: relative;
+  padding: .5em;
+  margin: -.5em;  
+}
+
+.listMarker{
+  list-style-type: square;
+}
+
+.strike{
+  text-decoration: line-through;
+  color: #F86919;
 }
 
 .navbar-brand{
@@ -26,13 +35,14 @@ a {
 }
 
 .navbar-brand>img{
-   max-height: 100%;
-   height: 100%;
-   width: auto;
+  max-height: 100%;
+  height: 100%;
+  width: auto;
   padding-top: .5em;
-   margin: 0 auto;
-   -o-object-fit: contain;
-   object-fit: contain; 
+  padding-left: 1em;
+  margin: 0 auto;
+  -o-object-fit: contain;
+  object-fit: contain; 
 }
 
 a:hover { 
@@ -40,7 +50,7 @@ a:hover {
   text-decoration: none; 
 }
 
-.buttonFloat{
+#buttonFloat{
   float: right;
   margin-right:10px;
 
@@ -55,10 +65,6 @@ a:hover {
   color: #00f
 }
 
-.links1{
-  color: #00f;
-  text-decoration: none;
-}
 
 .title {
   text-decoration: underline;
@@ -99,6 +105,22 @@ a:hover {
     height: 100%;
 }
 
+.btn{
+  background-color: #726FD6
+}
+
+.btn:hover {
+  background-color: #0800F7
+}
+
+.jumbotron{
+  background-color: 
+}
+
+#jumbotronSteven{
+  background-image: 
+}
+
 /*************************** Font Colors *******************/
 
 .indexFontColor{
@@ -108,6 +130,12 @@ a:hover {
 #goodPeople{
   color: black
 }
+
+.links1{
+  color: #35C414;
+  text-decoration: none;
+}
+
 /*************************** Skills diagram *******************/
 
 .skills-diagram {
@@ -330,7 +358,7 @@ a:hover {
 
 blockquote {
   background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  border-left: 10px solid #35C414;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
