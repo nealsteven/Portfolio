@@ -1,12 +1,12 @@
 - SPELL CHECK
-- TEST (see more button on mobile index, {make some room on contact me page for mobile layout})
+- TEST
 - Image of me
-- Create a 404 page
-- Optimize site
-- Print style sheet
-- Redo nav bar after all pages are done (need to get mobile working)
+- Need to get mobile navbar working
 
 -- Do the CSS
+-- Create a 404 page
+-- Optimize site
+-- Redo nav bar after all pages are done
 -- Validate the code
 -- Fix mail chimp required
 -- Google verify
@@ -14,6 +14,7 @@
 -- Fix all buttons
 -- Finish the impossible list
 -- Design logo
+-- Add xml file
 -- Choose and change font
 -- Get buttons on service to be all button
 -- Change indexFontColor, mailChimp and goodPeople to more readable color
@@ -46,11 +47,13 @@
 -/- Skills
 
 -?- Add a geo map
+-?- Google Analytics Certified Partner
 -?- Terms and conditions (get the legal stuff done)
 -?- Who have I done work for
 -?- Add time guage to articles
 -?- Add a Modal to images and some links (needs a close button) glyphicon glyphicon-modal-window
 -?- Create the forms/ terms needed for certian products
+-?- Print style sheet
 
 
 -?- = Save for later
