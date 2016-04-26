@@ -1,4 +1,3 @@
-  @import url(https://fonts.googleapis.com/css?family=Lora|Indie+Flower|Abril+Fatface);
   ul {
     list-style: none
   }
@@ -7,7 +6,8 @@
   h2,
   h3,
   h4,
-  h5 {
+  h5,
+  h6 {
     font-family: 'Abril Fatface', cursive;
   }
   
@@ -17,6 +17,7 @@
   a,
   button {
     font-family: 'Lora', serif;
+    line-height: 150%
   }
   
   a {
@@ -26,6 +27,10 @@
     position: relative;
     padding: .5em;
     margin: -.5em;
+  }
+  
+  #font {
+    font-family: "Indie Flower", cursive;
   }
   
   .listMarker {
@@ -38,8 +43,7 @@
   }
   
   .navbar-brand {
-    padding: 0px;
-    /* firefox bug fix */
+    padding: 1px;
   }
   
   .navbar-brand>img {
@@ -53,16 +57,6 @@
     object-fit: contain;
   }
   
-  a:hover {
-    color: #0AF;
-    text-decoration: none;
-  }
-  
-  #buttonFloat {
-    margin-left: 40%;
-    margin-top: .25em;
-  }
-  
   #resume {
     color: #00F;
     text-decoration: none;
@@ -70,6 +64,10 @@
   
   .dates {
     color: #00f
+  }
+  
+  .done {
+    color: #dd1b1b;
   }
   
   .title {
@@ -92,6 +90,10 @@
     float: right;
   }
   
+  .width1 {
+    width: 100%;
+  }
+  
   .footer {
     position: absolute;
     right: 0;
@@ -99,18 +101,45 @@
     left: 0;
     padding: .2em;
   }
+  
+  .row {
+    padding: 1px;
+    margin: auto;
+  }
+  
+  .small {
+    line-height: 150%;
+    font-size: 16px;
+  }
+  /*************************** Inline Link *******************/
+  
+  .inline-link {
+    display: inline-block;
+    margin: 0 0.2em;
+    padding: 3px;
+    background: #35C414;
+    border-radius: 2px;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .inline-link:hover {
+    background: #0800F7
+  }
+  
+  .inline-link:active {
+    background: #726FD6
+  }
+  
+  .inline-link:visited {
+    background: #F86919
+  }
   /*************************** Background *******************/
   
   .bg {
-    background: url(Images/downtownJax.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  .bgContact {
-    background: url(Images/jacksonville.jpg) no-repeat center center fixed;
+    background: url(/Images/downtownJax.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -118,6 +147,7 @@
   }
   
   .layer {
+    background-color: #D9353738;
     background-color: rgba(53, 55, 56, 0.4);
     position: absolute;
     top: 0;
@@ -137,18 +167,10 @@
   .jumbotron {
     background-color: #E4E4E4;
   }
-  
-  #jumbotronSteven {
-    background-image: ;
-  }
   /*************************** Font Colors *******************/
   
   .indexFontColor {
     color: aliceblue;
-  }
-  
-  #goodPeople {
-    color: black
   }
   
   .links1 {
@@ -292,7 +314,6 @@
   /*************************** Mail Chimp *******************/
   
   #mc_embed_signup {
-    color: aliceblue;
     clear: left;
     font: 20px 'Lora', serif;
     width: 100%;
@@ -421,17 +442,27 @@
   .clearfix {
     *zoom: 1;
   }
-  /*************************** Print *******************/
+  /*************************** Media Querys *******************/
+  /*Hide in Other Small Devices */
+  /* Landscape tablets and medium desktops */
   
-  @media print {
-    header nav,
-    footer {
-      display: none;
-    }
-    img {
-      max-width: 500px;
-    }
-    @page {
-      margin: 0.5cm;
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .bg {}
+  }
+  /* Portrait tablets and small desktops */
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .bg {}
+  }
+  /* Landscape phones and portrait tablets */
+  
+  @media (max-width: 767px) {
+    .bg {}
+  }
+  /* Portrait phones and smaller */
+  
+  @media (max-width: 480px) {
+    .bg {
+      background-image: none;
     }
   }
